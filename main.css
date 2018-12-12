@@ -40,25 +40,15 @@ img {
 	border: 0;
 }
 
-/*nav {
-	float: right;
-	font-size: 13px;
-	text-transform: uppercase;
+a:link, a:active,a:visited {
+    color: #ddd;
+    text-decoration: none;
 }
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+a:hover {
+    text-decoration: underline;
+    color: #7b8bb0;
 }
-nav li {
-	display: inline-block;
-	margin-left: 10px;
-	margin-top: 12px;
-}
-nav a {
-	color: #555;
-	text-decoration: none;
-}*/
+
 main {
 	width: 70%;
 	display: block;
@@ -76,6 +66,7 @@ footer {
 	width: 100%;
 	padding: 15px;
 }
+
 .button {
 	background-color: #090f33;
 	padding-top: 6px;
@@ -93,8 +84,8 @@ nav {
 }
 
 ul {
-    font-size: 16px;
-    line-height: normal;
+    font-size: 12.5px;
+    line-height: 20px;
 }
 
 .hero {
